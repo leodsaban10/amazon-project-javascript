@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 15;
+    padding: 5;
+    background-color: #c2ecf3;
+}
+nav {
+    background-color: #333;
+    overflow: hidden;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+a {
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    text-decoration: none;
+}
+section {
+    margin: 5px;
+    padding: 20px;
+    background-color: #55bc5f;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+}
+.box {
+    background-color: rgb(96, 96, 3);
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    padding: 120px;
+    text-align: center;
+    font-size: 20px;
+}
